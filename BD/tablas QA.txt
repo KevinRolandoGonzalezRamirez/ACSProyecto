@@ -1,0 +1,114 @@
+Usuario
+	-Id. Usuario
+	-Nombre usuario
+	-Password
+	-Estado
+	-E-mail
+ *** Ya Esta el api
+
+Liga
+	-Id. Liga
+	-Nombre
+	-Id. Usuario Admin
+	-Estado
+	-Fecha creación
+	-Fecha de cierre
+	-Tipo de Liga (Tipo 0 apuesta, 1 diversión)
+	-Precio participación (0 en caso de ser por diversión)
+	-Sede o lugar donde se realiza
+
+LigaUsuario
+	-Id. Registro
+	-Id. Liga
+	-Id. Usuario
+	-Punteo (Default: 0)
+
+Nota: la consulta se puede hacer
+para ver las posiciones de una liga:
+SELECT * from liga where id_liga= X
+order by Punteo DESC
+
+LigaUsuarioPendienteDeAprobación
+	-Id. Registro
+	-Id. Liga
+	-Id. Usuario
+
+Invitaciones - Pendiente de ver, si nos da tiempo
+
+ResultadoLiga
+	-Id. Registro
+	-Id. Liga
+	-Id. Usuario
+	-Puesto
+
+Para empates -> Con formula
+1ro y 2do - 75%/2
+2do y 3ro - 35%/2
+3ro y 4to - 20%/2
+1ro, 2do y 3ro - 85%/3
+1ro, 2do, 3ro y 4to - 95%/4
+Más de 5 - 95% / X
+O el % equivalente dividido entre los que empataron
+
+Equipo
+	-Id. Equipo
+	-Nombre
+	-País
+	-Estado
+	
+Partidos
+	-Id. Partido
+	-Id. Liga
+	-Id. Equipo 1
+	-Id. Equipo 2
+	-Fecha y hora del encuentro 
+	-Estado (0 no iniciado, 1 finalizado y 2 cancelado)
+	-Goles Equipo 1
+	-Goles Equipo 2
+	-Id. Estadio
+(Restricción del programa:
+Validar que el equipo si este clasificado 
+en la liga)
+
+Predicción (Vaticinio)
+	-Id. Predicción
+	-Id. Partido
+	-Id. Usuario
+	-Predicción Gol 1
+	-Predicción Gol 2
+	-Estado
+
+EquipoClasificadoLiga
+	-Id. Registro
+	-Id. EquipoClasificado
+	-Id. LigaaLaQueClasifico
+	-Fecha (Pendiente de verificar)
+	-Estado
+
+Estados
+	-Id. Estadio
+	-Nombre
+	-Estado
+	-País
+
+PunteoEquipoLiga
+	-Id. Registro
+	-Id. Equipo
+	-Id. Liga
+	-Puntaje
+	-Estado
+
+Pagos
+	-Id. Pago
+	-Id. Usuario
+	-Id. Liga
+	-Fecha de pago
+	-Id. Tarjeta
+
+Tarjeta
+	-Id. Tarjeta
+	-Nombre encargado
+	-Número de tarjeta
+	-CVC
+	-Fecha de caducidad
+	-Tipo
