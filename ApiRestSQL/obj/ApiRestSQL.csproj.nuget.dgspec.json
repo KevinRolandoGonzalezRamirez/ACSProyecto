@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiRestSQL\\ApiRestSQL.csproj": {}
+  },
+  "projects": {
+    "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj",
+        "projectName": "ApiMsqlData",
+        "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj": {
+                "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj",
+        "projectName": "ApiMsqlModel",
+        "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiRestSQL\\ApiRestSQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiRestSQL\\ApiRestSQL.csproj",
+        "projectName": "ApiRestSQL",
+        "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiRestSQL\\ApiRestSQL.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiRestSQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj": {
+                "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj"
+              },
+              "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj": {
+                "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
