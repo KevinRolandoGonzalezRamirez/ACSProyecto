@@ -946,19 +946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gonza\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gonza\\OneDrive\\Documents\\Github\\ACSProyecto\\ApiMsqlData\\ApiMsqlData.csproj",
+      "projectUniqueName": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj",
       "projectName": "ApiMsqlData",
-      "projectPath": "C:\\Users\\Gonza\\OneDrive\\Documents\\Github\\ACSProyecto\\ApiMsqlData\\ApiMsqlData.csproj",
-      "packagesPath": "C:\\Users\\Gonza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gonza\\OneDrive\\Documents\\Github\\ACSProyecto\\ApiMsqlData\\obj\\",
+      "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\ApiMsqlData.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gonza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -972,8 +972,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Gonza\\OneDrive\\Documents\\Github\\ACSProyecto\\ApiMsqlModel\\ApiMsqlModel.csproj": {
-              "projectPath": "C:\\Users\\Gonza\\OneDrive\\Documents\\Github\\ACSProyecto\\ApiMsqlModel\\ApiMsqlModel.csproj"
+            "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj": {
+              "projectPath": "J:\\uni\\10mo\\QA\\ApiRestSQL\\ApiMsqlModel\\ApiMsqlModel.csproj"
             }
           }
         }
