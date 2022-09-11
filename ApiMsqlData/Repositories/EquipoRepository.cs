@@ -74,7 +74,7 @@ namespace ApiMsqlData.Repositories
                         VALUES (@nombreEquipo,@pais,'1')";
             var result = await db.ExecuteAsync(sql, new { team.nombreEquipo, team.pais });
 
-            throw new NotImplementedException();
+            return result > 0;
         }
 
         public async Task<bool> UpdateEquipo(equipo team)
