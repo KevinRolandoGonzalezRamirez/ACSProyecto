@@ -22,3 +22,15 @@ J:\uni\10mo\QA\ApiRestSQL\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.dll
 J:\uni\10mo\QA\ApiRestSQL\ApiMsqlModel\obj\Debug\net6.0\refint\ApiMsqlModel.dll
 J:\uni\10mo\QA\ApiRestSQL\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.pdb
 J:\uni\10mo\QA\ApiRestSQL\ApiMsqlModel\obj\Debug\net6.0\ref\ApiMsqlModel.dll
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\bin\Debug\net6.0\ApiMsqlModel.deps.json
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\bin\Debug\net6.0\ApiMsqlModel.dll
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\bin\Debug\net6.0\ApiMsqlModel.pdb
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.csproj.AssemblyReference.cache
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.AssemblyInfoInputs.cache
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.AssemblyInfo.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.dll
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\refint\ApiMsqlModel.dll
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.pdb
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ref\ApiMsqlModel.dll
