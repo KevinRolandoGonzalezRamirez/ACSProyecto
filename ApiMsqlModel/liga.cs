@@ -10,8 +10,8 @@ namespace ApiMsqlModel
     {
         public int idLiga { get; set; } // autoincrementable
         public string nombreLiga { get; set; }
-        public DateOnly fechaCreacion { get; set; }
-        public DateOnly fechaCierre { get; set; }
+        public string fechaCreacion { get; set; }
+        public string fechaCierre { get; set; }
         public int tipodeLiga { get; set; }
         public float precioDeParticipacion { get; set; }
         public string sede { get; set; }

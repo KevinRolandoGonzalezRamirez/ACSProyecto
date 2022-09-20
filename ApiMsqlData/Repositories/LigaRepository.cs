@@ -26,8 +26,8 @@ namespace ApiMsqlData.Repositories
         {
             var db = dbAbrirConexion();
             var sql = @"
-                        UPDATE `liga` SET `estado` = 0
-                        WHERE `idLiga` = @idLiga";
+                        UPDATE liga SET estado = 0
+                        WHERE idLiga = @idLiga";
             var result = await db.ExecuteAsync(sql, new { lig.idLiga});
 
             //dbCerrarConexion(db);
@@ -39,8 +39,8 @@ namespace ApiMsqlData.Repositories
         {
             var db = dbAbrirConexion();
             var sql = @"SELECT * 
-                        FROM `liga`
-                        WHERE `estado`=1;";
+                        FROM liga
+                        WHERE estado=1;";
 
             return await db.QueryAsync<liga>(sql, new { });
         }
@@ -52,8 +52,8 @@ namespace ApiMsqlData.Repositories
 
             var sql = @" 
                         SELECT * 
-                        FROM `liga`
-                        WHERE `estado`=1 AND `idLiga` = @id ;";
+                        FROM liga
+                        WHERE estado=1 AND idLiga = @id ;";
 
             return await db.QueryFirstOrDefaultAsync<liga>(sql, new { id = id });
         }
@@ -62,7 +62,7 @@ namespace ApiMsqlData.Repositories
         {
             var db = dbAbrirConexion();
             var sql = @"
-                        INSERT INTO `liga` (`nombreLiga`, `fechaCreacion`, `fechaCierre`, `tipodeLiga`, 'precioDeParticipacion', 'sede', 'estado') 
+                        INSERT INTO liga (nombreLiga, fechaCreacion, fechaCierre, tipodeLiga, precioDeParticipacion, sede, estado) 
                         values (@nombreLiga, @fechaCreacion, @fechaCierre, @tipodeLiga, @precioDeParticipacion, @sede, '1');"; // poner igual que en la clase modelo de datos o sea igual que la Bd
            
                 var result = await db.ExecuteAsync(sql, new { lig.nombreLiga, lig.fechaCreacion, lig.fechaCierre, lig.tipodeLiga, lig.precioDeParticipacion, lig.sede });
@@ -75,9 +75,9 @@ namespace ApiMsqlData.Repositories
         {
             var db = dbAbrirConexion();
             var sql = @"
-                        UPDATE `liga` SET `nombreLiga` = @nombreLiga, `fechaCreacion` = @fechaCreacion, `fechaCierre` = @fechaCierre, 'tipodeLiga' = @tipodeLiga , 'precioDeParticipacion' = @precioDeParticipacion, 'sede' = @sede, 'estado' = @estado
-                        WHERE `idLiga` = @idLiga";
-            var result = await db.ExecuteAsync(sql, new {lig.nombreLiga, lig.fechaCreacion, lig.fechaCierre, lig.tipodeLiga, lig.precioDeParticipacion, lig.sede, lig.estado });
+                        UPDATE liga SET nombreLiga = @nombreLiga, fechaCreacion = @fechaCreacion, fechaCierre = @fechaCierre, tipodeLiga = @tipodeLiga , precioDeParticipacion = @precioDeParticipacion, sede = @sede, estado = @estado
+                        WHERE idLiga = @idLiga";
+            var result = await db.ExecuteAsync(sql, new {lig.idLiga, lig.nombreLiga, lig.fechaCreacion, lig.fechaCierre, lig.tipodeLiga, lig.precioDeParticipacion, lig.sede, lig.estado });
            
             return result > 0;
         }
