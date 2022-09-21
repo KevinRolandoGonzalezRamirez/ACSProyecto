@@ -7,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 //conexión a mysql
 var configMySql = new MySqlConf(builder.Configuration.GetConnectionString("MysqlConnection"));
 builder.Services.AddSingleton(configMySql);
-//repositorio???? es la capa de datos? que rayos es eso XD, joder tio no entiendo nada
-builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
+//Invocaciones de repositorios
+
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<ILigaRepository, LigaRepository>();
 builder.Services.AddScoped<ITarjetaRepository, TarjetaRepository>();
