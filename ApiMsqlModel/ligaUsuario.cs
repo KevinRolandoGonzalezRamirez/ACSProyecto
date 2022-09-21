@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace ApiMsqlModel
 {
-
-    public class equipo
+    public class ligaUsuario
     {
-        public int idEquipo { get; set; }
-        public string? nombreEquipo { get; set; }
-        public string? pais { get; set; }
+        public int idRegistro { get; set; }
+        public int? idLiga { get; set; }
+        public int? idUsuario { get; set; }
+        public int punteo { get; set; }
         public int estado { get; set; }
-
     }
 }

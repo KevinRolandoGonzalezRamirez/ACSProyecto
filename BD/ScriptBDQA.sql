@@ -31,13 +31,16 @@ create table Liga(
     primary key(idLiga)
 );
 
+
 CREATE TABLE ligaUsuario (
-    idRegistro INT,
+    idRegistro INT auto_increment,
     idLiga INT,
     idUsuario INT,
     punteo INT DEFAULT 0,
+    estado tinyint,
     PRIMARY KEY (idRegistro)
 );
+
 
 -- ********LLAVES FORANEAS LIGAUSUARIO**********
 
