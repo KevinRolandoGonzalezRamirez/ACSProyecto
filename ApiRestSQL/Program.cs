@@ -10,6 +10,9 @@ builder.Services.AddSingleton(configMySql);
 //repositorio???? es la capa de datos? que rayos es eso XD, joder tio no entiendo nada
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<ILigaRepository, LigaRepository>();
+builder.Services.AddScoped<ITarjetaRepository, TarjetaRepository>();
+builder.Services.AddScoped<IPagoRepository, PagoRepository>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
