@@ -74,18 +74,12 @@ namespace ApiRestSQL.Controllers
                 return BadRequest();
             }
 
-            //^ en vez de hacer todo lo de arriba se podría probar con modelisvalid y como
-            //acepta valores null la clase equipo, debería funcionar
-
             await _equipoRepository.UpdateEquipo(team);
 
             return NoContent();
         }
 
         [HttpDelete("{id}")] //borrado de datos
-        //ACA CAMBIE EL FORMATO PARA SOLICITAR SOLO EL ID YA QUE
-        //SOLICITAR TODO NO ERA NECESARIO. SE COPIA LA FORMA DE FUNCIONAR DE LA
-        //CONSULTA INDIVIDUAL
         public async Task<IActionResult> DeleteEquipo(int id)
         {
             //validamos el id

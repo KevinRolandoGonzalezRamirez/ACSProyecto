@@ -7,13 +7,13 @@ namespace ApiRestSQL.Controllers
 {
 
 
-    [Route("api/[controller]")] // localhost/api/usuario
+    [Route("api/[controller]")] // localhost/api/ligaUsuario
     [ApiController]
 
     public class ligaUsuarioController: ControllerBase
     {
         private readonly ILigaUsuarioRepository _ligaUsuarioRepository;
-        //private readonly ILigaRepository _ligaRepository;
+
 
         public ligaUsuarioController(ILigaUsuarioRepository LigaUsuarioRepository)
         {
@@ -30,7 +30,7 @@ namespace ApiRestSQL.Controllers
         [HttpGet("{id}")]
         //será la consulta individual específica, donde se hace una petición GET a una url o endpoint como el siguiente:
         // localhost/api/usuario/1 <- el 1 de acá es el parámetro "{id}"
-        public async Task<IActionResult> GetLigaDetails(int id)
+        public async Task<IActionResult> GetUsuarioLigaDetails(int id)
         {
             return Ok(await _ligaUsuarioRepository.GetLigaUsuarioDetails(id));
         }

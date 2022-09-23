@@ -79,16 +79,8 @@ namespace ApiMsqlData.Repositories
             return result > 0; //verificamos y regresamos la condición de que modifico más de una tabla
         }
 
-        public async Task<bool> UpdateUsuario(usuario usu) //update INDIVIDUAL
+        public async Task<bool> UpdateUsuario(usuario usu) //update individual
         {
-            //************************************
-            //SE DEBEN DE AGREGAR VALIDACIONES PARA
-            //REVISAR LOS CAMPOS QUE MANDA EL USUARIO
-            //Y CUALES ACTUALIZAR
-            //SI NO ACEPTA LAS PETICIONES SOLO CON ALGUNSO CAMPOS DEFINIDOS
-            //(ej: no manda el nomnre), ENTONCES PONER '?' EN EL MODELO DE DATOS
-            //PARA ESPECIFICAR QUE EL CAMPO PUEDE SER NULL
-            //************************************
             var db = dbAbrirConexion();
             var sql = @"
                         UPDATE `usuario` SET `nomUsuario` = @nomUsuario, `pass` = @pass, `email` = @email

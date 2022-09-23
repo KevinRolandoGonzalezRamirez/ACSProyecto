@@ -31,8 +31,7 @@ namespace ApiMsqlData.Repositories
         {
             var db = dbAbrirConexion();
             var sql = @"SELECT * 
-                         FROM pago 
-                         WHERE idPago = 1";
+                         FROM pago";
             return await db.QueryAsync<pago>(sql, new { });
         }
 
@@ -43,7 +42,7 @@ namespace ApiMsqlData.Repositories
             var sql = @" 
                         SELECT * 
                         FROM pago
-                        WHERE idPago = idPago;";
+                        WHERE idPago = @idPago;";
             return await db.QueryFirstOrDefaultAsync<pago>(sql, new { idPago = idPago });
         }
 

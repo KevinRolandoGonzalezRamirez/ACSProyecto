@@ -85,7 +85,7 @@ namespace ApiMsqlData.Repositories
             var db = dbAbrirConexion();
             var sql = @"SELECT * 
                         FROM ligaUsuario
-                        WHERE estado = 1 AND idRegistro =1;";
+                        WHERE estado = 1;";
             //esto cierra la conexión
             //this.dbCerrarConexion(db);
             return await db.QueryAsync<ligaUsuario>(sql, new { });

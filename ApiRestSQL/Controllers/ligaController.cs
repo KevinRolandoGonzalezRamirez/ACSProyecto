@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiRestSQL.Controllers
 {
 
-    [Route("api/[controller]")] // localhost/api/usuario
+    [Route("api/[controller]")] // localhost/api/liga
     [ApiController]
     
-    //private readonly IUsuarioRepository _usuarioRepository;
 
     public class ligaController : ControllerBase
     {
@@ -86,6 +85,7 @@ namespace ApiRestSQL.Controllers
                 return BadRequest(ModelState);
             }
 
+            await _ligaRepository.DeleteLiga(lig);
 
             return NoContent();//204 - respuesta exitosa, pero sin mayor detalle
         }

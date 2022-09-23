@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiRestSQL.Controllers
 {
-    [Route("api/[controller]")] // localhost/api/usuario
+    [Route("api/[controller]")] // localhost/api/estadio
     [ApiController]
     public class estadioController : ControllerBase
     {

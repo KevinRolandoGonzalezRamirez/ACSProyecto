@@ -46,7 +46,7 @@ namespace ApiMsqlData.Repositories
             var db = dbAbrirConexion();
             var sql = @"SELECT * 
                          FROM tarjeta 
-                         WHERE idTarjeta = 1";
+                         WHERE estado = 1";
             return await db.QueryAsync<tarjeta>(sql, new { });
         }
 

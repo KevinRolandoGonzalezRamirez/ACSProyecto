@@ -24,13 +24,13 @@ namespace ApiRestSQL.Controllers
         [HttpGet("{idTarjeta}")]
         //será la consulta individual específica, donde se hace una petición GET a una url o endpoint como el siguiente:
         // localhost/api/usuario/1 <- el 1 de acá es el parámetro "{id}"
-        public async Task<IActionResult> GetUsuarioDetails(int idTarjeta)
+        public async Task<IActionResult> GetTarjetaDetails(int idTarjeta)
         {
             return Ok(await _tarjetaRepository.GetTarjetaDetails(idTarjeta));
         }
 
         [HttpPost] //insert de usuario
-        public async Task<IActionResult> InsertUsuario([FromBody] tarjeta tar)
+        public async Task<IActionResult> InsertTarjeta([FromBody] tarjeta tar)
         {
             if (tar == null)
             {
