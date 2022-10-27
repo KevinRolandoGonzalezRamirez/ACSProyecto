@@ -1,0 +1,15 @@
+﻿C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\MySqlConf.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\EquipoRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\EstadioRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\IEquipoRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\IEstadioRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\ILigaRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\ILigaUsuarioRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\IPagoRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\ITarjetaRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\IUsuarioRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\LigaRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\LigaUsuarioRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\PagoRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\TarjetaRepository.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlData\Repositories\UsuarioRepository.cs

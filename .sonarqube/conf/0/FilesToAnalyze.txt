@@ -1,0 +1,7 @@
+﻿C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\equipo.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\estadio.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\liga.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\ligaUsuario.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\pago.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\tarjeta.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\usuario.cs

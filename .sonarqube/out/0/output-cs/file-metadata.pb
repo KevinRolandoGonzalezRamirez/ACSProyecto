@@ -1,0 +1,11 @@
+T
+KC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\equipo.csutf-8U
+LC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\estadio.csutf-8R
+IC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\liga.csutf-8Y
+PC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\ligaUsuario.csutf-8R
+IC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\pago.csutf-8U
+LC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\tarjeta.csutf-8U
+LC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\usuario.csutf-8|
+qC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.GlobalUsings.g.csutf-8ç
+ÅC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8z
+oC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiMsqlModel\obj\Debug\net6.0\ApiMsqlModel.AssemblyInfo.csutf-8

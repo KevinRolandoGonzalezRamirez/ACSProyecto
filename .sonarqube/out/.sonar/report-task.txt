@@ -1,0 +1,6 @@
+projectKey=ACSProyecto2
+serverUrl=http://localhost:9000
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=ACSProyecto2
+ceTaskId=AYQNVhcpAx44rNpohsgF
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYQNVhcpAx44rNpohsgF

@@ -1,0 +1,15 @@
+﻿C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\equipoController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\estadioController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\ligaController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\ligaUsuarioController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\pagoController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\tarjetaController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\usuarioController.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Program.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.GlobalUsings.g.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.AssemblyInfo.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\appsettings.Development.json
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\appsettings.json
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Properties\launchSettings.json

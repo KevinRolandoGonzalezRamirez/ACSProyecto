@@ -1,0 +1,13 @@
+h
+_C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\equipoController.csutf-8i
+`C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\estadioController.csutf-8f
+]C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\ligaController.csutf-8m
+dC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\ligaUsuarioController.csutf-8f
+]C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\pagoController.csutf-8i
+`C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\tarjetaController.csutf-8i
+`C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Controllers\usuarioController.csutf-8Z
+JC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\Program.cswindows-1252x
+mC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.GlobalUsings.g.csutf-8Š
+C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8v
+kC:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.AssemblyInfo.csutf-8‰
+~C:\Users\Gonza\OneDrive\Documents\Github\ACSProyecto\ApiRestSQL\obj\Debug\net6.0\ApiRestSQL.MvcApplicationPartsAssemblyInfo.csutf-8

@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22365.10 (dd078d4e)",
+        "semanticVersion": "4.3.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'estadioController' to match pascal case naming rules, consider using 'EstadioController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/estadioController.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ligaController' to match pascal case naming rules, consider using 'LigaController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/ligaController.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'usuarioController' to match pascal case naming rules, consider using 'UsuarioController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/usuarioController.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'pagoController' to match pascal case naming rules, consider using 'PagoController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/pagoController.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'tarjetaController' to match pascal case naming rules, consider using 'TarjetaController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/tarjetaController.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'equipoController' to match pascal case naming rules, consider using 'EquipoController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/equipoController.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ligaUsuarioController' to match pascal case naming rules, consider using 'LigaUsuarioController'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Gonza/OneDrive/Documents/Github/ACSProyecto/ApiRestSQL/Controllers/ligaUsuarioController.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
